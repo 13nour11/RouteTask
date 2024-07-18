@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Transactional-React-App/",
+  // base: "/Transactional-React-App/", // write at the depolyment pages at gitub
   plugins: [react()],
 })
